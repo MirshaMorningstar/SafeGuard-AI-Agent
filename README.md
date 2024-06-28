@@ -455,9 +455,8 @@ Future work in this area could involve:
 2. **Integration with Real-World Data:** Combining simulated data with real-world accident data to validate and refine the models.
 3. **Automated Analysis Tools:** Creating automated tools for analyzing and comparing deformed point clouds to streamline the accident reconstruction process.
 
----
 
-## Creation of a Derived Attribute - Severity
+## 7. Creation of a Derived Attribute - Severity
 
 ### 1. Loading the Dataset
 The dataset used for this analysis is loaded from a CSV file named "scene002.csv." This dataset contains a variety of sensor readings and vehicle data collected over a 60-second period. The data includes information such as rotational rates, linear accelerations, brake sensor readings, steering sensor values, throttle positions, and wheel speeds. The initial step in the analysis involves reading this data into a structured format suitable for further processing.
@@ -491,7 +490,7 @@ The modified values are applied to the dataset in a step-by-step manner, ensurin
 ### 8. Re-saving the Modified Dataset
 After applying all changes, the modified dataset is saved back to a CSV file. This updated dataset includes the newly added 'Severity' column, the adjusted timestamps, and the modified sensor values. The saved file can then be used for further analysis or as input for machine learning models to predict or classify the severity of events based on sensor data.
 
-**8. Computer Vision Techniques for Accident Detection**
+## 8. Computer Vision Techniques for Accident Detection
 
 **Purpose**
 
@@ -528,7 +527,7 @@ The primary purpose of this project is to utilize computer vision techniques to 
 
 This project showcases the effective use of computer vision techniques for automatic accident detection in images. By leveraging a pre-trained model and sophisticated visualization methods, the system achieves high accuracy and efficiency in identifying and highlighting accidents. This capability is crucial for enhancing traffic safety and management by providing timely and reliable accident detection.
 
-**9. API-Enabled Nearby Emergency Responders Data Scraping**
+## 9. API-Enabled Nearby Emergency Responders Data Scraping
 
 **Project Overview**
 
@@ -601,7 +600,7 @@ The project achieved its objective of creating a tool for scraping and collectin
 - TrueWay Places API Documentation
 - Google Places API Documentation
 
-**10. API-Enabled Automated Emergency Responders Notification System**
+## 10. API-Enabled Automated Emergency Responders Notification System
 
 **Project Overview**
 
