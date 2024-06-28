@@ -196,14 +196,20 @@ In the context of ML and DL, Kalman Filtering is significant for several reasons
 ### Mathematical Formulation
 The Kalman Filter algorithm operates in two main steps: Prediction and Update.
 
-1. **Prediction Step:**
-   - **State Prediction:** \(\hat{x}_{k|k-1} = F \hat{x}_{k-1|k-1} + Bu_{k-1}\)
-   - **Covariance Prediction:** \(P_{k|k-1} = F P_{k-1|k-1} F^T + Q\)
+**Notation**
 
-2. **Update Step:**
-   - **Kalman Gain:** \(K_k = P_{k|k-1} H^T (H P_{k|k-1} H^T + R)^{-1}\)
-   - **State Update:** \(\hat{x}_{k|k} = \hat{x}_{k|k-1} + K_k (z_k - H \hat{x}_{k|k-1})\)
-   - **Covariance Update:** \(P_{k|k} = (I - K_k H) P_{k|k-1}\)
+![image](https://github.com/MirshaMorningstar/SafeGuard-AI-Agent/assets/84216040/36cf5309-df0e-47ca-beb9-8e6c22ad551a)
+
+
+1. **Prediction Step:**
+   
+   ![image](https://github.com/MirshaMorningstar/SafeGuard-AI-Agent/assets/84216040/78b76b0b-14e3-4c2d-a68e-866c32397c9e)
+
+
+3. **Update Step:**
+
+  ![image](https://github.com/MirshaMorningstar/SafeGuard-AI-Agent/assets/84216040/654358d4-e64e-4bf0-a53f-40163bdd6def)
+
 
 Where:
 - \(\hat{x}\) is the state estimate.
