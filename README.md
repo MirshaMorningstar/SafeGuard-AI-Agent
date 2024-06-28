@@ -198,17 +198,17 @@ The Kalman Filter algorithm operates in two main steps: Prediction and Update.
 
 **Notation**
 
-![image](https://github.com/MirshaMorningstar/SafeGuard-AI-Agent/assets/84216040/36cf5309-df0e-47ca-beb9-8e6c22ad551a)
+      ![image](https://github.com/MirshaMorningstar/SafeGuard-AI-Agent/assets/84216040/36cf5309-df0e-47ca-beb9-8e6c22ad551a)
 
 
 1. **Prediction Step:**
    
-   ![image](https://github.com/MirshaMorningstar/SafeGuard-AI-Agent/assets/84216040/78b76b0b-14e3-4c2d-a68e-866c32397c9e)
+      ![image](https://github.com/MirshaMorningstar/SafeGuard-AI-Agent/assets/84216040/78b76b0b-14e3-4c2d-a68e-866c32397c9e)
 
 
 3. **Update Step:**
 
-  ![image](https://github.com/MirshaMorningstar/SafeGuard-AI-Agent/assets/84216040/654358d4-e64e-4bf0-a53f-40163bdd6def)
+      ![image](https://github.com/MirshaMorningstar/SafeGuard-AI-Agent/assets/84216040/654358d4-e64e-4bf0-a53f-40163bdd6def)
 
 
 Where:
